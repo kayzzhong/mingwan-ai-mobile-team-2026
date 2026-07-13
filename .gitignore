@@ -1,0 +1,7 @@
+.DS_Store
+.impeccable/
+.openai/
+asset-staging/
+dist/
+index.html.bak
+node_modules/

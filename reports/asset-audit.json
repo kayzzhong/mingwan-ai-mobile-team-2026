@@ -1,0 +1,1543 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-07-13T15:24:48.117Z",
+  "projectRoot": "/Users/kayz/Desktop/明湾微光黑客松2026，AI机动队",
+  "assetBaseUrl": "https://assets.lighthouseisland.online",
+  "mode": "audit-only",
+  "uploadAuthorized": false,
+  "notes": [
+    "No files were optimized, uploaded, deleted, or replaced by this audit.",
+    "Recommendations require user confirmation before staging or COS upload.",
+    "ffprobe is unavailable; MP4 duration and dimensions are read from container boxes when present, and codec/bitrate should be confirmed before transcoding."
+  ],
+  "budget": {
+    "version": 1,
+    "assetBaseUrl": "https://assets.lighthouseisland.online",
+    "sourceDirectories": [
+      "assets"
+    ],
+    "referenceFiles": [
+      "index.html",
+      "resources/**/*.html",
+      "README.md"
+    ],
+    "budgets": {
+      "firstScreenTotalBytes": 1048576,
+      "localBundleTotalBytes": 8388608,
+      "photoBytes": 512000,
+      "transparentImageBytes": 512000,
+      "videoBytes": 1048576,
+      "audioBytes": 524288,
+      "maxPhotoLongEdge": 2000,
+      "maxCardPhotoLongEdge": 1200
+    },
+    "externalization": {
+      "recommendVideo": true,
+      "recommendAudio": true,
+      "recommendWhenOverBudget": true
+    },
+    "stagingDirectory": "asset-staging/optimized",
+    "reportPath": "reports/asset-audit.json"
+  },
+  "totals": {
+    "assetCount": 58,
+    "totalBytes": 20587322,
+    "totalMiB": 19.634,
+    "referencedCount": 58,
+    "unreferencedCount": 0,
+    "overBudgetCount": 5,
+    "recommendedExternalCount": 10,
+    "localBundleBudgetBytes": 8388608,
+    "localBundleOverBudget": true
+  },
+  "assets": [
+    {
+      "path": "assets/image-01.jpg",
+      "type": "image",
+      "extension": ".jpg",
+      "sizeBytes": 335679,
+      "sizeMiB": 0.32,
+      "mediaInfo": {
+        "width": 1199,
+        "height": 1600,
+        "hasAlpha": false
+      },
+      "references": [
+        {
+          "file": "index.html",
+          "line": 62,
+          "attribute": "string/path"
+        }
+      ],
+      "referenced": true,
+      "inferredDisplay": "full content canvas or standalone media; up to approximately 1024px wide",
+      "loadingOptimized": false,
+      "overBudget": false,
+      "recommendExternalize": false,
+      "optimization": "keep current dimensions unless visual review supports a smaller rendition; convert photographic content to quality-reviewed WebP; preserve original",
+      "proposedStagingPath": "asset-staging/optimized/image-01.webp"
+    },
+    {
+      "path": "assets/image-02.jpg",
+      "type": "image",
+      "extension": ".jpg",
+      "sizeBytes": 463835,
+      "sizeMiB": 0.442,
+      "mediaInfo": {
+        "width": 1600,
+        "height": 1200,
+        "hasAlpha": false
+      },
+      "references": [
+        {
+          "file": "index.html",
+          "line": 62,
+          "attribute": "string/path"
+        }
+      ],
+      "referenced": true,
+      "inferredDisplay": "full content canvas or standalone media; up to approximately 1024px wide",
+      "loadingOptimized": false,
+      "overBudget": false,
+      "recommendExternalize": false,
+      "optimization": "keep current dimensions unless visual review supports a smaller rendition; convert photographic content to quality-reviewed WebP; preserve original",
+      "proposedStagingPath": "asset-staging/optimized/image-02.webp"
+    },
+    {
+      "path": "assets/image-03.jpg",
+      "type": "image",
+      "extension": ".jpg",
+      "sizeBytes": 325307,
+      "sizeMiB": 0.31,
+      "mediaInfo": {
+        "width": 1199,
+        "height": 1600,
+        "hasAlpha": false
+      },
+      "references": [
+        {
+          "file": "index.html",
+          "line": 62,
+          "attribute": "string/path"
+        }
+      ],
+      "referenced": true,
+      "inferredDisplay": "full content canvas or standalone media; up to approximately 1024px wide",
+      "loadingOptimized": false,
+      "overBudget": false,
+      "recommendExternalize": false,
+      "optimization": "keep current dimensions unless visual review supports a smaller rendition; convert photographic content to quality-reviewed WebP; preserve original",
+      "proposedStagingPath": "asset-staging/optimized/image-03.webp"
+    },
+    {
+      "path": "assets/image-04.jpg",
+      "type": "image",
+      "extension": ".jpg",
+      "sizeBytes": 436082,
+      "sizeMiB": 0.416,
+      "mediaInfo": {
+        "width": 1600,
+        "height": 1200,
+        "hasAlpha": false
+      },
+      "references": [
+        {
+          "file": "index.html",
+          "line": 62,
+          "attribute": "string/path"
+        }
+      ],
+      "referenced": true,
+      "inferredDisplay": "full content canvas or standalone media; up to approximately 1024px wide",
+      "loadingOptimized": false,
+      "overBudget": false,
+      "recommendExternalize": false,
+      "optimization": "keep current dimensions unless visual review supports a smaller rendition; convert photographic content to quality-reviewed WebP; preserve original",
+      "proposedStagingPath": "asset-staging/optimized/image-04.webp"
+    },
+    {
+      "path": "assets/image-05.jpg",
+      "type": "image",
+      "extension": ".jpg",
+      "sizeBytes": 390768,
+      "sizeMiB": 0.373,
+      "mediaInfo": {
+        "width": 1199,
+        "height": 1600,
+        "hasAlpha": false
+      },
+      "references": [
+        {
+          "file": "index.html",
+          "line": 62,
+          "attribute": "string/path"
+        }
+      ],
+      "referenced": true,
+      "inferredDisplay": "full content canvas or standalone media; up to approximately 1024px wide",
+      "loadingOptimized": false,
+      "overBudget": false,
+      "recommendExternalize": false,
+      "optimization": "keep current dimensions unless visual review supports a smaller rendition; convert photographic content to quality-reviewed WebP; preserve original",
+      "proposedStagingPath": "asset-staging/optimized/image-05.webp"
+    },
+    {
+      "path": "assets/image-06.jpg",
+      "type": "image",
+      "extension": ".jpg",
+      "sizeBytes": 429369,
+      "sizeMiB": 0.409,
+      "mediaInfo": {
+        "width": 1199,
+        "height": 1600,
+        "hasAlpha": false
+      },
+      "references": [
+        {
+          "file": "index.html",
+          "line": 62,
+          "attribute": "string/path"
+        }
+      ],
+      "referenced": true,
+      "inferredDisplay": "full content canvas or standalone media; up to approximately 1024px wide",
+      "loadingOptimized": false,
+      "overBudget": false,
+      "recommendExternalize": false,
+      "optimization": "keep current dimensions unless visual review supports a smaller rendition; convert photographic content to quality-reviewed WebP; preserve original",
+      "proposedStagingPath": "asset-staging/optimized/image-06.webp"
+    },
+    {
+      "path": "assets/image-07.jpg",
+      "type": "image",
+      "extension": ".jpg",
+      "sizeBytes": 461716,
+      "sizeMiB": 0.44,
+      "mediaInfo": {
+        "width": 1600,
+        "height": 1199,
+        "hasAlpha": false
+      },
+      "references": [
+        {
+          "file": "index.html",
+          "line": 62,
+          "attribute": "string/path"
+        }
+      ],
+      "referenced": true,
+      "inferredDisplay": "full content canvas or standalone media; up to approximately 1024px wide",
+      "loadingOptimized": false,
+      "overBudget": false,
+      "recommendExternalize": false,
+      "optimization": "keep current dimensions unless visual review supports a smaller rendition; convert photographic content to quality-reviewed WebP; preserve original",
+      "proposedStagingPath": "asset-staging/optimized/image-07.webp"
+    },
+    {
+      "path": "assets/image-08.jpg",
+      "type": "image",
+      "extension": ".jpg",
+      "sizeBytes": 474584,
+      "sizeMiB": 0.453,
+      "mediaInfo": {
+        "width": 1600,
+        "height": 1199,
+        "hasAlpha": false
+      },
+      "references": [
+        {
+          "file": "index.html",
+          "line": 62,
+          "attribute": "string/path"
+        }
+      ],
+      "referenced": true,
+      "inferredDisplay": "full content canvas or standalone media; up to approximately 1024px wide",
+      "loadingOptimized": false,
+      "overBudget": false,
+      "recommendExternalize": false,
+      "optimization": "keep current dimensions unless visual review supports a smaller rendition; convert photographic content to quality-reviewed WebP; preserve original",
+      "proposedStagingPath": "asset-staging/optimized/image-08.webp"
+    },
+    {
+      "path": "assets/image-09.jpg",
+      "type": "image",
+      "extension": ".jpg",
+      "sizeBytes": 404276,
+      "sizeMiB": 0.386,
+      "mediaInfo": {
+        "width": 1600,
+        "height": 1199,
+        "hasAlpha": false
+      },
+      "references": [
+        {
+          "file": "index.html",
+          "line": 62,
+          "attribute": "string/path"
+        }
+      ],
+      "referenced": true,
+      "inferredDisplay": "full content canvas or standalone media; up to approximately 1024px wide",
+      "loadingOptimized": false,
+      "overBudget": false,
+      "recommendExternalize": false,
+      "optimization": "keep current dimensions unless visual review supports a smaller rendition; convert photographic content to quality-reviewed WebP; preserve original",
+      "proposedStagingPath": "asset-staging/optimized/image-09.webp"
+    },
+    {
+      "path": "assets/image-10.jpg",
+      "type": "image",
+      "extension": ".jpg",
+      "sizeBytes": 434520,
+      "sizeMiB": 0.414,
+      "mediaInfo": {
+        "width": 1600,
+        "height": 1199,
+        "hasAlpha": false
+      },
+      "references": [
+        {
+          "file": "index.html",
+          "line": 62,
+          "attribute": "string/path"
+        }
+      ],
+      "referenced": true,
+      "inferredDisplay": "full content canvas or standalone media; up to approximately 1024px wide",
+      "loadingOptimized": false,
+      "overBudget": false,
+      "recommendExternalize": false,
+      "optimization": "keep current dimensions unless visual review supports a smaller rendition; convert photographic content to quality-reviewed WebP; preserve original",
+      "proposedStagingPath": "asset-staging/optimized/image-10.webp"
+    },
+    {
+      "path": "assets/image-11.jpg",
+      "type": "image",
+      "extension": ".jpg",
+      "sizeBytes": 397913,
+      "sizeMiB": 0.379,
+      "mediaInfo": {
+        "width": 1600,
+        "height": 1199,
+        "hasAlpha": false
+      },
+      "references": [
+        {
+          "file": "index.html",
+          "line": 62,
+          "attribute": "string/path"
+        }
+      ],
+      "referenced": true,
+      "inferredDisplay": "full content canvas or standalone media; up to approximately 1024px wide",
+      "loadingOptimized": false,
+      "overBudget": false,
+      "recommendExternalize": false,
+      "optimization": "keep current dimensions unless visual review supports a smaller rendition; convert photographic content to quality-reviewed WebP; preserve original",
+      "proposedStagingPath": "asset-staging/optimized/image-11.webp"
+    },
+    {
+      "path": "assets/image-12.jpg",
+      "type": "image",
+      "extension": ".jpg",
+      "sizeBytes": 367549,
+      "sizeMiB": 0.351,
+      "mediaInfo": {
+        "width": 1600,
+        "height": 1199,
+        "hasAlpha": false
+      },
+      "references": [
+        {
+          "file": "index.html",
+          "line": 62,
+          "attribute": "string/path"
+        }
+      ],
+      "referenced": true,
+      "inferredDisplay": "full content canvas or standalone media; up to approximately 1024px wide",
+      "loadingOptimized": false,
+      "overBudget": false,
+      "recommendExternalize": false,
+      "optimization": "keep current dimensions unless visual review supports a smaller rendition; convert photographic content to quality-reviewed WebP; preserve original",
+      "proposedStagingPath": "asset-staging/optimized/image-12.webp"
+    },
+    {
+      "path": "assets/image-13.jpg",
+      "type": "image",
+      "extension": ".jpg",
+      "sizeBytes": 407357,
+      "sizeMiB": 0.388,
+      "mediaInfo": {
+        "width": 1600,
+        "height": 1199,
+        "hasAlpha": false
+      },
+      "references": [
+        {
+          "file": "index.html",
+          "line": 62,
+          "attribute": "string/path"
+        }
+      ],
+      "referenced": true,
+      "inferredDisplay": "full content canvas or standalone media; up to approximately 1024px wide",
+      "loadingOptimized": false,
+      "overBudget": false,
+      "recommendExternalize": false,
+      "optimization": "keep current dimensions unless visual review supports a smaller rendition; convert photographic content to quality-reviewed WebP; preserve original",
+      "proposedStagingPath": "asset-staging/optimized/image-13.webp"
+    },
+    {
+      "path": "assets/image-14.jpg",
+      "type": "image",
+      "extension": ".jpg",
+      "sizeBytes": 371629,
+      "sizeMiB": 0.354,
+      "mediaInfo": {
+        "width": 1600,
+        "height": 1199,
+        "hasAlpha": false
+      },
+      "references": [
+        {
+          "file": "index.html",
+          "line": 62,
+          "attribute": "string/path"
+        }
+      ],
+      "referenced": true,
+      "inferredDisplay": "full content canvas or standalone media; up to approximately 1024px wide",
+      "loadingOptimized": false,
+      "overBudget": false,
+      "recommendExternalize": false,
+      "optimization": "keep current dimensions unless visual review supports a smaller rendition; convert photographic content to quality-reviewed WebP; preserve original",
+      "proposedStagingPath": "asset-staging/optimized/image-14.webp"
+    },
+    {
+      "path": "assets/image-15.jpg",
+      "type": "image",
+      "extension": ".jpg",
+      "sizeBytes": 377907,
+      "sizeMiB": 0.36,
+      "mediaInfo": {
+        "width": 1600,
+        "height": 1067,
+        "hasAlpha": false
+      },
+      "references": [
+        {
+          "file": "index.html",
+          "line": 62,
+          "attribute": "string/path"
+        }
+      ],
+      "referenced": true,
+      "inferredDisplay": "full content canvas or standalone media; up to approximately 1024px wide",
+      "loadingOptimized": false,
+      "overBudget": false,
+      "recommendExternalize": false,
+      "optimization": "keep current dimensions unless visual review supports a smaller rendition; convert photographic content to quality-reviewed WebP; preserve original",
+      "proposedStagingPath": "asset-staging/optimized/image-15.webp"
+    },
+    {
+      "path": "assets/image-16.mp4",
+      "type": "video",
+      "extension": ".mp4",
+      "sizeBytes": 705444,
+      "sizeMiB": 0.673,
+      "mediaInfo": {
+        "width": 720,
+        "height": 1280,
+        "durationSeconds": 7.6,
+        "container": "MP4"
+      },
+      "references": [
+        {
+          "file": "index.html",
+          "line": 62,
+          "attribute": "string/path"
+        },
+        {
+          "file": "index.html",
+          "line": 145,
+          "attribute": "string/path"
+        }
+      ],
+      "referenced": true,
+      "inferredDisplay": "full content canvas or standalone media; up to approximately 1024px wide",
+      "loadingOptimized": false,
+      "overBudget": false,
+      "recommendExternalize": true,
+      "optimization": "transcode a reviewed web delivery rendition (H.264/AAC MP4, resolution and bitrate matched to the 16:9 content player); keep preload=metadata; preserve original",
+      "proposedStagingPath": "asset-staging/optimized/image-16.mp4"
+    },
+    {
+      "path": "assets/image-17.mp4",
+      "type": "video",
+      "extension": ".mp4",
+      "sizeBytes": 1393634,
+      "sizeMiB": 1.329,
+      "mediaInfo": {
+        "width": 720,
+        "height": 1280,
+        "durationSeconds": 17,
+        "container": "MP4"
+      },
+      "references": [
+        {
+          "file": "index.html",
+          "line": 62,
+          "attribute": "string/path"
+        },
+        {
+          "file": "index.html",
+          "line": 145,
+          "attribute": "string/path"
+        }
+      ],
+      "referenced": true,
+      "inferredDisplay": "full content canvas or standalone media; up to approximately 1024px wide",
+      "loadingOptimized": false,
+      "overBudget": true,
+      "recommendExternalize": true,
+      "optimization": "transcode a reviewed web delivery rendition (H.264/AAC MP4, resolution and bitrate matched to the 16:9 content player); keep preload=metadata; preserve original",
+      "proposedStagingPath": "asset-staging/optimized/image-17.mp4"
+    },
+    {
+      "path": "assets/image-18.jpg",
+      "type": "image",
+      "extension": ".jpg",
+      "sizeBytes": 368459,
+      "sizeMiB": 0.351,
+      "mediaInfo": {
+        "width": 1199,
+        "height": 1600,
+        "hasAlpha": false
+      },
+      "references": [
+        {
+          "file": "index.html",
+          "line": 62,
+          "attribute": "string/path"
+        }
+      ],
+      "referenced": true,
+      "inferredDisplay": "full content canvas or standalone media; up to approximately 1024px wide",
+      "loadingOptimized": false,
+      "overBudget": false,
+      "recommendExternalize": false,
+      "optimization": "keep current dimensions unless visual review supports a smaller rendition; convert photographic content to quality-reviewed WebP; preserve original",
+      "proposedStagingPath": "asset-staging/optimized/image-18.webp"
+    },
+    {
+      "path": "assets/image-19.jpg",
+      "type": "image",
+      "extension": ".jpg",
+      "sizeBytes": 403552,
+      "sizeMiB": 0.385,
+      "mediaInfo": {
+        "width": 1600,
+        "height": 1199,
+        "hasAlpha": false
+      },
+      "references": [
+        {
+          "file": "index.html",
+          "line": 62,
+          "attribute": "string/path"
+        }
+      ],
+      "referenced": true,
+      "inferredDisplay": "full content canvas or standalone media; up to approximately 1024px wide",
+      "loadingOptimized": false,
+      "overBudget": false,
+      "recommendExternalize": false,
+      "optimization": "keep current dimensions unless visual review supports a smaller rendition; convert photographic content to quality-reviewed WebP; preserve original",
+      "proposedStagingPath": "asset-staging/optimized/image-19.webp"
+    },
+    {
+      "path": "assets/image-20.mp4",
+      "type": "video",
+      "extension": ".mp4",
+      "sizeBytes": 580912,
+      "sizeMiB": 0.554,
+      "mediaInfo": {
+        "width": 720,
+        "height": 1280,
+        "durationSeconds": 5.766666666666667,
+        "container": "MP4"
+      },
+      "references": [
+        {
+          "file": "index.html",
+          "line": 62,
+          "attribute": "string/path"
+        },
+        {
+          "file": "index.html",
+          "line": 145,
+          "attribute": "string/path"
+        }
+      ],
+      "referenced": true,
+      "inferredDisplay": "full content canvas or standalone media; up to approximately 1024px wide",
+      "loadingOptimized": false,
+      "overBudget": false,
+      "recommendExternalize": true,
+      "optimization": "transcode a reviewed web delivery rendition (H.264/AAC MP4, resolution and bitrate matched to the 16:9 content player); keep preload=metadata; preserve original",
+      "proposedStagingPath": "asset-staging/optimized/image-20.mp4"
+    },
+    {
+      "path": "assets/image-21.jpg",
+      "type": "image",
+      "extension": ".jpg",
+      "sizeBytes": 99682,
+      "sizeMiB": 0.095,
+      "mediaInfo": {
+        "width": 960,
+        "height": 1280,
+        "hasAlpha": false
+      },
+      "references": [
+        {
+          "file": "index.html",
+          "line": 70,
+          "attribute": "string/path"
+        }
+      ],
+      "referenced": true,
+      "inferredDisplay": "responsive card/grid; approximately 500px wide on desktop",
+      "loadingOptimized": false,
+      "overBudget": false,
+      "recommendExternalize": false,
+      "optimization": "resize long edge to about 1200px; convert photographic content to quality-reviewed WebP; preserve original",
+      "proposedStagingPath": "asset-staging/optimized/image-21.webp"
+    },
+    {
+      "path": "assets/image-22.jpg",
+      "type": "image",
+      "extension": ".jpg",
+      "sizeBytes": 232255,
+      "sizeMiB": 0.221,
+      "mediaInfo": {
+        "width": 1280,
+        "height": 1707,
+        "hasAlpha": false
+      },
+      "references": [
+        {
+          "file": "index.html",
+          "line": 70,
+          "attribute": "string/path"
+        }
+      ],
+      "referenced": true,
+      "inferredDisplay": "responsive card/grid; approximately 500px wide on desktop",
+      "loadingOptimized": false,
+      "overBudget": false,
+      "recommendExternalize": false,
+      "optimization": "resize long edge to about 1200px; convert photographic content to quality-reviewed WebP; preserve original",
+      "proposedStagingPath": "asset-staging/optimized/image-22.webp"
+    },
+    {
+      "path": "assets/image-23.jpg",
+      "type": "image",
+      "extension": ".jpg",
+      "sizeBytes": 244964,
+      "sizeMiB": 0.234,
+      "mediaInfo": {
+        "width": 1280,
+        "height": 1707,
+        "hasAlpha": false
+      },
+      "references": [
+        {
+          "file": "index.html",
+          "line": 74,
+          "attribute": "string/path"
+        }
+      ],
+      "referenced": true,
+      "inferredDisplay": "full content canvas or standalone media; up to approximately 1024px wide",
+      "loadingOptimized": false,
+      "overBudget": false,
+      "recommendExternalize": false,
+      "optimization": "keep current dimensions unless visual review supports a smaller rendition; convert photographic content to quality-reviewed WebP; preserve original",
+      "proposedStagingPath": "asset-staging/optimized/image-23.webp"
+    },
+    {
+      "path": "assets/image-24.jpg",
+      "type": "image",
+      "extension": ".jpg",
+      "sizeBytes": 200402,
+      "sizeMiB": 0.191,
+      "mediaInfo": {
+        "width": 1280,
+        "height": 1707,
+        "hasAlpha": false
+      },
+      "references": [
+        {
+          "file": "index.html",
+          "line": 74,
+          "attribute": "string/path"
+        }
+      ],
+      "referenced": true,
+      "inferredDisplay": "full content canvas or standalone media; up to approximately 1024px wide",
+      "loadingOptimized": false,
+      "overBudget": false,
+      "recommendExternalize": false,
+      "optimization": "keep current dimensions unless visual review supports a smaller rendition; convert photographic content to quality-reviewed WebP; preserve original",
+      "proposedStagingPath": "asset-staging/optimized/image-24.webp"
+    },
+    {
+      "path": "assets/image-25.jpg",
+      "type": "image",
+      "extension": ".jpg",
+      "sizeBytes": 249581,
+      "sizeMiB": 0.238,
+      "mediaInfo": {
+        "width": 1280,
+        "height": 1707,
+        "hasAlpha": false
+      },
+      "references": [
+        {
+          "file": "index.html",
+          "line": 95,
+          "attribute": "string/path"
+        }
+      ],
+      "referenced": true,
+      "inferredDisplay": "full content canvas or standalone media; up to approximately 1024px wide",
+      "loadingOptimized": false,
+      "overBudget": false,
+      "recommendExternalize": false,
+      "optimization": "keep current dimensions unless visual review supports a smaller rendition; convert photographic content to quality-reviewed WebP; preserve original",
+      "proposedStagingPath": "asset-staging/optimized/image-25.webp"
+    },
+    {
+      "path": "assets/image-26.mp4",
+      "type": "video",
+      "extension": ".mp4",
+      "sizeBytes": 598895,
+      "sizeMiB": 0.571,
+      "mediaInfo": {
+        "width": 720,
+        "height": 1280,
+        "durationSeconds": 6.7,
+        "container": "MP4"
+      },
+      "references": [
+        {
+          "file": "index.html",
+          "line": 95,
+          "attribute": "string/path"
+        },
+        {
+          "file": "index.html",
+          "line": 145,
+          "attribute": "string/path"
+        }
+      ],
+      "referenced": true,
+      "inferredDisplay": "full content canvas or standalone media; up to approximately 1024px wide",
+      "loadingOptimized": true,
+      "overBudget": false,
+      "recommendExternalize": true,
+      "optimization": "transcode a reviewed web delivery rendition (H.264/AAC MP4, resolution and bitrate matched to the 16:9 content player); keep preload=metadata; preserve original",
+      "proposedStagingPath": "asset-staging/optimized/image-26.mp4"
+    },
+    {
+      "path": "assets/image-27.mp4",
+      "type": "video",
+      "extension": ".mp4",
+      "sizeBytes": 395299,
+      "sizeMiB": 0.377,
+      "mediaInfo": {
+        "width": 720,
+        "height": 1280,
+        "durationSeconds": 5.066666666666666,
+        "container": "MP4"
+      },
+      "references": [
+        {
+          "file": "index.html",
+          "line": 98,
+          "attribute": "string/path"
+        },
+        {
+          "file": "index.html",
+          "line": 145,
+          "attribute": "string/path"
+        }
+      ],
+      "referenced": true,
+      "inferredDisplay": "full content canvas or standalone media; up to approximately 1024px wide",
+      "loadingOptimized": true,
+      "overBudget": false,
+      "recommendExternalize": true,
+      "optimization": "transcode a reviewed web delivery rendition (H.264/AAC MP4, resolution and bitrate matched to the 16:9 content player); keep preload=metadata; preserve original",
+      "proposedStagingPath": "asset-staging/optimized/image-27.mp4"
+    },
+    {
+      "path": "assets/image-28.jpg",
+      "type": "image",
+      "extension": ".jpg",
+      "sizeBytes": 183838,
+      "sizeMiB": 0.175,
+      "mediaInfo": {
+        "width": 1707,
+        "height": 1280,
+        "hasAlpha": false
+      },
+      "references": [
+        {
+          "file": "index.html",
+          "line": 105,
+          "attribute": "string/path"
+        }
+      ],
+      "referenced": true,
+      "inferredDisplay": "full content canvas or standalone media; up to approximately 1024px wide",
+      "loadingOptimized": false,
+      "overBudget": false,
+      "recommendExternalize": false,
+      "optimization": "keep current dimensions unless visual review supports a smaller rendition; convert photographic content to quality-reviewed WebP; preserve original",
+      "proposedStagingPath": "asset-staging/optimized/image-28.webp"
+    },
+    {
+      "path": "assets/image-29.mp4",
+      "type": "video",
+      "extension": ".mp4",
+      "sizeBytes": 648227,
+      "sizeMiB": 0.618,
+      "mediaInfo": {
+        "width": 720,
+        "height": 1280,
+        "durationSeconds": 7.9,
+        "container": "MP4"
+      },
+      "references": [
+        {
+          "file": "index.html",
+          "line": 102,
+          "attribute": "string/path"
+        },
+        {
+          "file": "index.html",
+          "line": 145,
+          "attribute": "string/path"
+        }
+      ],
+      "referenced": true,
+      "inferredDisplay": "full content canvas or standalone media; up to approximately 1024px wide",
+      "loadingOptimized": true,
+      "overBudget": false,
+      "recommendExternalize": true,
+      "optimization": "transcode a reviewed web delivery rendition (H.264/AAC MP4, resolution and bitrate matched to the 16:9 content player); keep preload=metadata; preserve original",
+      "proposedStagingPath": "asset-staging/optimized/image-29.mp4"
+    },
+    {
+      "path": "assets/image-30.jpg",
+      "type": "image",
+      "extension": ".jpg",
+      "sizeBytes": 375966,
+      "sizeMiB": 0.359,
+      "mediaInfo": {
+        "width": 1707,
+        "height": 1280,
+        "hasAlpha": false
+      },
+      "references": [
+        {
+          "file": "index.html",
+          "line": 106,
+          "attribute": "string/path"
+        }
+      ],
+      "referenced": true,
+      "inferredDisplay": "full content canvas or standalone media; up to approximately 1024px wide",
+      "loadingOptimized": false,
+      "overBudget": false,
+      "recommendExternalize": false,
+      "optimization": "keep current dimensions unless visual review supports a smaller rendition; convert photographic content to quality-reviewed WebP; preserve original",
+      "proposedStagingPath": "asset-staging/optimized/image-30.webp"
+    },
+    {
+      "path": "assets/image-31.png",
+      "type": "image",
+      "extension": ".png",
+      "sizeBytes": 782562,
+      "sizeMiB": 0.746,
+      "mediaInfo": {
+        "width": 1629,
+        "height": 1601,
+        "hasAlpha": true
+      },
+      "references": [
+        {
+          "file": "index.html",
+          "line": 117,
+          "attribute": "string/path"
+        },
+        {
+          "file": "index.html",
+          "line": 145,
+          "attribute": "string/path"
+        }
+      ],
+      "referenced": true,
+      "inferredDisplay": "full content canvas or standalone media; up to approximately 1024px wide",
+      "loadingOptimized": false,
+      "overBudget": true,
+      "recommendExternalize": true,
+      "optimization": "test lossless WebP against optimized PNG; preserve original",
+      "proposedStagingPath": "asset-staging/optimized/image-31.webp"
+    },
+    {
+      "path": "assets/image-32.png",
+      "type": "image",
+      "extension": ".png",
+      "sizeBytes": 551009,
+      "sizeMiB": 0.525,
+      "mediaInfo": {
+        "width": 768,
+        "height": 1588,
+        "hasAlpha": false
+      },
+      "references": [
+        {
+          "file": "index.html",
+          "line": 123,
+          "attribute": "string/path"
+        },
+        {
+          "file": "index.html",
+          "line": 145,
+          "attribute": "string/path"
+        }
+      ],
+      "referenced": true,
+      "inferredDisplay": "full content canvas or standalone media; up to approximately 1024px wide",
+      "loadingOptimized": false,
+      "overBudget": true,
+      "recommendExternalize": true,
+      "optimization": "convert screenshot/photo PNG to WebP; preserve original",
+      "proposedStagingPath": "asset-staging/optimized/image-32.webp"
+    },
+    {
+      "path": "assets/image-33.jpg",
+      "type": "image",
+      "extension": ".jpg",
+      "sizeBytes": 1836140,
+      "sizeMiB": 1.751,
+      "mediaInfo": {
+        "width": 2880,
+        "height": 3840,
+        "hasAlpha": false
+      },
+      "references": [
+        {
+          "file": "index.html",
+          "line": 124,
+          "attribute": "string/path"
+        },
+        {
+          "file": "index.html",
+          "line": 145,
+          "attribute": "string/path"
+        }
+      ],
+      "referenced": true,
+      "inferredDisplay": "responsive card/grid; approximately 500px wide on desktop",
+      "loadingOptimized": false,
+      "overBudget": true,
+      "recommendExternalize": true,
+      "optimization": "resize long edge to about 1200px; convert photographic content to quality-reviewed WebP; preserve original",
+      "proposedStagingPath": "asset-staging/optimized/image-33.webp"
+    },
+    {
+      "path": "assets/image-34.jpg",
+      "type": "image",
+      "extension": ".jpg",
+      "sizeBytes": 1066814,
+      "sizeMiB": 1.017,
+      "mediaInfo": {
+        "width": 3840,
+        "height": 2880,
+        "hasAlpha": false
+      },
+      "references": [
+        {
+          "file": "index.html",
+          "line": 124,
+          "attribute": "string/path"
+        },
+        {
+          "file": "index.html",
+          "line": 145,
+          "attribute": "string/path"
+        }
+      ],
+      "referenced": true,
+      "inferredDisplay": "responsive card/grid; approximately 500px wide on desktop",
+      "loadingOptimized": false,
+      "overBudget": true,
+      "recommendExternalize": true,
+      "optimization": "resize long edge to about 1200px; convert photographic content to quality-reviewed WebP; preserve original",
+      "proposedStagingPath": "asset-staging/optimized/image-34.webp"
+    },
+    {
+      "path": "assets/image-35.jpg",
+      "type": "image",
+      "extension": ".jpg",
+      "sizeBytes": 198614,
+      "sizeMiB": 0.189,
+      "mediaInfo": {
+        "width": 959,
+        "height": 1280,
+        "hasAlpha": false
+      },
+      "references": [
+        {
+          "file": "index.html",
+          "line": 124,
+          "attribute": "string/path"
+        }
+      ],
+      "referenced": true,
+      "inferredDisplay": "full content canvas or standalone media; up to approximately 1024px wide",
+      "loadingOptimized": false,
+      "overBudget": false,
+      "recommendExternalize": false,
+      "optimization": "keep current dimensions unless visual review supports a smaller rendition; convert photographic content to quality-reviewed WebP; preserve original",
+      "proposedStagingPath": "asset-staging/optimized/image-35.webp"
+    },
+    {
+      "path": "assets/image-36.jpg",
+      "type": "image",
+      "extension": ".jpg",
+      "sizeBytes": 266281,
+      "sizeMiB": 0.254,
+      "mediaInfo": {
+        "width": 959,
+        "height": 1280,
+        "hasAlpha": false
+      },
+      "references": [
+        {
+          "file": "index.html",
+          "line": 125,
+          "attribute": "string/path"
+        }
+      ],
+      "referenced": true,
+      "inferredDisplay": "full content canvas or standalone media; up to approximately 1024px wide",
+      "loadingOptimized": false,
+      "overBudget": false,
+      "recommendExternalize": false,
+      "optimization": "keep current dimensions unless visual review supports a smaller rendition; convert photographic content to quality-reviewed WebP; preserve original",
+      "proposedStagingPath": "asset-staging/optimized/image-36.webp"
+    },
+    {
+      "path": "assets/image-37.png",
+      "type": "image",
+      "extension": ".png",
+      "sizeBytes": 420477,
+      "sizeMiB": 0.401,
+      "mediaInfo": {
+        "width": 1434,
+        "height": 1094,
+        "hasAlpha": false
+      },
+      "references": [
+        {
+          "file": "index.html",
+          "line": 126,
+          "attribute": "string/path"
+        }
+      ],
+      "referenced": true,
+      "inferredDisplay": "full content canvas or standalone media; up to approximately 1024px wide",
+      "loadingOptimized": false,
+      "overBudget": false,
+      "recommendExternalize": false,
+      "optimization": "convert screenshot/photo PNG to WebP; preserve original",
+      "proposedStagingPath": "asset-staging/optimized/image-37.webp"
+    },
+    {
+      "path": "assets/image-38.png",
+      "type": "image",
+      "extension": ".png",
+      "sizeBytes": 106191,
+      "sizeMiB": 0.101,
+      "mediaInfo": {
+        "width": 1124,
+        "height": 706,
+        "hasAlpha": false
+      },
+      "references": [
+        {
+          "file": "index.html",
+          "line": 131,
+          "attribute": "string/path"
+        }
+      ],
+      "referenced": true,
+      "inferredDisplay": "full content canvas or standalone media; up to approximately 1024px wide",
+      "loadingOptimized": true,
+      "overBudget": false,
+      "recommendExternalize": false,
+      "optimization": "convert screenshot/photo PNG to WebP; preserve original",
+      "proposedStagingPath": "asset-staging/optimized/image-38.webp"
+    },
+    {
+      "path": "assets/image-39.jpg",
+      "type": "image",
+      "extension": ".jpg",
+      "sizeBytes": 137353,
+      "sizeMiB": 0.131,
+      "mediaInfo": {
+        "width": 1280,
+        "height": 1707,
+        "hasAlpha": false
+      },
+      "references": [
+        {
+          "file": "index.html",
+          "line": 134,
+          "attribute": "string/path"
+        }
+      ],
+      "referenced": true,
+      "inferredDisplay": "full content canvas or standalone media; up to approximately 1024px wide",
+      "loadingOptimized": true,
+      "overBudget": false,
+      "recommendExternalize": false,
+      "optimization": "keep current dimensions unless visual review supports a smaller rendition; convert photographic content to quality-reviewed WebP; preserve original",
+      "proposedStagingPath": "asset-staging/optimized/image-39.webp"
+    },
+    {
+      "path": "assets/image-40.webp",
+      "type": "image",
+      "extension": ".webp",
+      "sizeBytes": 255554,
+      "sizeMiB": 0.244,
+      "mediaInfo": null,
+      "references": [
+        {
+          "file": "index.html",
+          "line": 132,
+          "attribute": "string/path"
+        }
+      ],
+      "referenced": true,
+      "inferredDisplay": "full content canvas or standalone media; up to approximately 1024px wide",
+      "loadingOptimized": true,
+      "overBudget": false,
+      "recommendExternalize": false,
+      "optimization": "review format and delivery; preserve original",
+      "proposedStagingPath": "asset-staging/optimized/image-40.webp"
+    },
+    {
+      "path": "assets/image-41.webp",
+      "type": "image",
+      "extension": ".webp",
+      "sizeBytes": 57734,
+      "sizeMiB": 0.055,
+      "mediaInfo": null,
+      "references": [
+        {
+          "file": "index.html",
+          "line": 137,
+          "attribute": "string/path"
+        }
+      ],
+      "referenced": true,
+      "inferredDisplay": "full content canvas or standalone media; up to approximately 1024px wide",
+      "loadingOptimized": true,
+      "overBudget": false,
+      "recommendExternalize": false,
+      "optimization": "review format and delivery; preserve original",
+      "proposedStagingPath": "asset-staging/optimized/image-41.webp"
+    },
+    {
+      "path": "assets/image-42.webp",
+      "type": "image",
+      "extension": ".webp",
+      "sizeBytes": 42808,
+      "sizeMiB": 0.041,
+      "mediaInfo": null,
+      "references": [
+        {
+          "file": "index.html",
+          "line": 137,
+          "attribute": "string/path"
+        }
+      ],
+      "referenced": true,
+      "inferredDisplay": "full content canvas or standalone media; up to approximately 1024px wide",
+      "loadingOptimized": false,
+      "overBudget": false,
+      "recommendExternalize": false,
+      "optimization": "review format and delivery; preserve original",
+      "proposedStagingPath": "asset-staging/optimized/image-42.webp"
+    },
+    {
+      "path": "assets/image-43.webp",
+      "type": "image",
+      "extension": ".webp",
+      "sizeBytes": 53752,
+      "sizeMiB": 0.051,
+      "mediaInfo": null,
+      "references": [
+        {
+          "file": "index.html",
+          "line": 137,
+          "attribute": "string/path"
+        }
+      ],
+      "referenced": true,
+      "inferredDisplay": "full content canvas or standalone media; up to approximately 1024px wide",
+      "loadingOptimized": false,
+      "overBudget": false,
+      "recommendExternalize": false,
+      "optimization": "review format and delivery; preserve original",
+      "proposedStagingPath": "asset-staging/optimized/image-43.webp"
+    },
+    {
+      "path": "assets/image-44.webp",
+      "type": "image",
+      "extension": ".webp",
+      "sizeBytes": 52878,
+      "sizeMiB": 0.05,
+      "mediaInfo": null,
+      "references": [
+        {
+          "file": "index.html",
+          "line": 137,
+          "attribute": "string/path"
+        }
+      ],
+      "referenced": true,
+      "inferredDisplay": "full content canvas or standalone media; up to approximately 1024px wide",
+      "loadingOptimized": false,
+      "overBudget": false,
+      "recommendExternalize": false,
+      "optimization": "review format and delivery; preserve original",
+      "proposedStagingPath": "asset-staging/optimized/image-44.webp"
+    },
+    {
+      "path": "assets/image-45.webp",
+      "type": "image",
+      "extension": ".webp",
+      "sizeBytes": 57584,
+      "sizeMiB": 0.055,
+      "mediaInfo": null,
+      "references": [
+        {
+          "file": "index.html",
+          "line": 137,
+          "attribute": "string/path"
+        }
+      ],
+      "referenced": true,
+      "inferredDisplay": "full content canvas or standalone media; up to approximately 1024px wide",
+      "loadingOptimized": false,
+      "overBudget": false,
+      "recommendExternalize": false,
+      "optimization": "review format and delivery; preserve original",
+      "proposedStagingPath": "asset-staging/optimized/image-45.webp"
+    },
+    {
+      "path": "assets/image-46.webp",
+      "type": "image",
+      "extension": ".webp",
+      "sizeBytes": 41784,
+      "sizeMiB": 0.04,
+      "mediaInfo": null,
+      "references": [
+        {
+          "file": "index.html",
+          "line": 137,
+          "attribute": "string/path"
+        }
+      ],
+      "referenced": true,
+      "inferredDisplay": "full content canvas or standalone media; up to approximately 1024px wide",
+      "loadingOptimized": false,
+      "overBudget": false,
+      "recommendExternalize": false,
+      "optimization": "review format and delivery; preserve original",
+      "proposedStagingPath": "asset-staging/optimized/image-46.webp"
+    },
+    {
+      "path": "assets/image-47.webp",
+      "type": "image",
+      "extension": ".webp",
+      "sizeBytes": 194442,
+      "sizeMiB": 0.185,
+      "mediaInfo": null,
+      "references": [
+        {
+          "file": "index.html",
+          "line": 138,
+          "attribute": "string/path"
+        }
+      ],
+      "referenced": true,
+      "inferredDisplay": "full content canvas or standalone media; up to approximately 1024px wide",
+      "loadingOptimized": true,
+      "overBudget": false,
+      "recommendExternalize": false,
+      "optimization": "review format and delivery; preserve original",
+      "proposedStagingPath": "asset-staging/optimized/image-47.webp"
+    },
+    {
+      "path": "assets/image-48.webp",
+      "type": "image",
+      "extension": ".webp",
+      "sizeBytes": 142670,
+      "sizeMiB": 0.136,
+      "mediaInfo": null,
+      "references": [
+        {
+          "file": "index.html",
+          "line": 138,
+          "attribute": "string/path"
+        }
+      ],
+      "referenced": true,
+      "inferredDisplay": "responsive card/grid; approximately 500px wide on desktop",
+      "loadingOptimized": false,
+      "overBudget": false,
+      "recommendExternalize": false,
+      "optimization": "review format and delivery; preserve original",
+      "proposedStagingPath": "asset-staging/optimized/image-48.webp"
+    },
+    {
+      "path": "assets/image-49.webp",
+      "type": "image",
+      "extension": ".webp",
+      "sizeBytes": 199348,
+      "sizeMiB": 0.19,
+      "mediaInfo": null,
+      "references": [
+        {
+          "file": "index.html",
+          "line": 138,
+          "attribute": "string/path"
+        }
+      ],
+      "referenced": true,
+      "inferredDisplay": "responsive card/grid; approximately 500px wide on desktop",
+      "loadingOptimized": false,
+      "overBudget": false,
+      "recommendExternalize": false,
+      "optimization": "review format and delivery; preserve original",
+      "proposedStagingPath": "asset-staging/optimized/image-49.webp"
+    },
+    {
+      "path": "assets/image-50.webp",
+      "type": "image",
+      "extension": ".webp",
+      "sizeBytes": 81516,
+      "sizeMiB": 0.078,
+      "mediaInfo": null,
+      "references": [
+        {
+          "file": "index.html",
+          "line": 138,
+          "attribute": "string/path"
+        }
+      ],
+      "referenced": true,
+      "inferredDisplay": "responsive card/grid; approximately 500px wide on desktop",
+      "loadingOptimized": false,
+      "overBudget": false,
+      "recommendExternalize": false,
+      "optimization": "review format and delivery; preserve original",
+      "proposedStagingPath": "asset-staging/optimized/image-50.webp"
+    },
+    {
+      "path": "assets/image-51.webp",
+      "type": "image",
+      "extension": ".webp",
+      "sizeBytes": 165348,
+      "sizeMiB": 0.158,
+      "mediaInfo": null,
+      "references": [
+        {
+          "file": "index.html",
+          "line": 138,
+          "attribute": "string/path"
+        }
+      ],
+      "referenced": true,
+      "inferredDisplay": "responsive card/grid; approximately 500px wide on desktop",
+      "loadingOptimized": false,
+      "overBudget": false,
+      "recommendExternalize": false,
+      "optimization": "review format and delivery; preserve original",
+      "proposedStagingPath": "asset-staging/optimized/image-51.webp"
+    },
+    {
+      "path": "assets/image-52.webp",
+      "type": "image",
+      "extension": ".webp",
+      "sizeBytes": 210090,
+      "sizeMiB": 0.2,
+      "mediaInfo": null,
+      "references": [
+        {
+          "file": "index.html",
+          "line": 138,
+          "attribute": "string/path"
+        }
+      ],
+      "referenced": true,
+      "inferredDisplay": "responsive card/grid; approximately 500px wide on desktop",
+      "loadingOptimized": false,
+      "overBudget": false,
+      "recommendExternalize": false,
+      "optimization": "review format and delivery; preserve original",
+      "proposedStagingPath": "asset-staging/optimized/image-52.webp"
+    },
+    {
+      "path": "assets/image-53.webp",
+      "type": "image",
+      "extension": ".webp",
+      "sizeBytes": 149470,
+      "sizeMiB": 0.143,
+      "mediaInfo": null,
+      "references": [
+        {
+          "file": "index.html",
+          "line": 138,
+          "attribute": "string/path"
+        }
+      ],
+      "referenced": true,
+      "inferredDisplay": "responsive card/grid; approximately 500px wide on desktop",
+      "loadingOptimized": false,
+      "overBudget": false,
+      "recommendExternalize": false,
+      "optimization": "review format and delivery; preserve original",
+      "proposedStagingPath": "asset-staging/optimized/image-53.webp"
+    },
+    {
+      "path": "assets/image-54.webp",
+      "type": "image",
+      "extension": ".webp",
+      "sizeBytes": 195446,
+      "sizeMiB": 0.186,
+      "mediaInfo": null,
+      "references": [
+        {
+          "file": "index.html",
+          "line": 138,
+          "attribute": "string/path"
+        }
+      ],
+      "referenced": true,
+      "inferredDisplay": "responsive card/grid; approximately 500px wide on desktop",
+      "loadingOptimized": false,
+      "overBudget": false,
+      "recommendExternalize": false,
+      "optimization": "review format and delivery; preserve original",
+      "proposedStagingPath": "asset-staging/optimized/image-54.webp"
+    },
+    {
+      "path": "assets/image-55.webp",
+      "type": "image",
+      "extension": ".webp",
+      "sizeBytes": 159994,
+      "sizeMiB": 0.153,
+      "mediaInfo": null,
+      "references": [
+        {
+          "file": "index.html",
+          "line": 138,
+          "attribute": "string/path"
+        }
+      ],
+      "referenced": true,
+      "inferredDisplay": "responsive card/grid; approximately 500px wide on desktop",
+      "loadingOptimized": false,
+      "overBudget": false,
+      "recommendExternalize": false,
+      "optimization": "review format and delivery; preserve original",
+      "proposedStagingPath": "asset-staging/optimized/image-55.webp"
+    },
+    {
+      "path": "assets/image-56.webp",
+      "type": "image",
+      "extension": ".webp",
+      "sizeBytes": 149998,
+      "sizeMiB": 0.143,
+      "mediaInfo": null,
+      "references": [
+        {
+          "file": "index.html",
+          "line": 138,
+          "attribute": "string/path"
+        }
+      ],
+      "referenced": true,
+      "inferredDisplay": "responsive card/grid; approximately 500px wide on desktop",
+      "loadingOptimized": false,
+      "overBudget": false,
+      "recommendExternalize": false,
+      "optimization": "review format and delivery; preserve original",
+      "proposedStagingPath": "asset-staging/optimized/image-56.webp"
+    },
+    {
+      "path": "assets/image-57.webp",
+      "type": "image",
+      "extension": ".webp",
+      "sizeBytes": 167552,
+      "sizeMiB": 0.16,
+      "mediaInfo": null,
+      "references": [
+        {
+          "file": "index.html",
+          "line": 143,
+          "attribute": "string/path"
+        }
+      ],
+      "referenced": true,
+      "inferredDisplay": "full content canvas or standalone media; up to approximately 1024px wide",
+      "loadingOptimized": true,
+      "overBudget": false,
+      "recommendExternalize": false,
+      "optimization": "review format and delivery; preserve original",
+      "proposedStagingPath": "asset-staging/optimized/image-57.webp"
+    },
+    {
+      "path": "assets/image-58.webp",
+      "type": "image",
+      "extension": ".webp",
+      "sizeBytes": 84312,
+      "sizeMiB": 0.08,
+      "mediaInfo": null,
+      "references": [
+        {
+          "file": "index.html",
+          "line": 143,
+          "attribute": "string/path"
+        }
+      ],
+      "referenced": true,
+      "inferredDisplay": "full content canvas or standalone media; up to approximately 1024px wide",
+      "loadingOptimized": true,
+      "overBudget": false,
+      "recommendExternalize": false,
+      "optimization": "review format and delivery; preserve original",
+      "proposedStagingPath": "asset-staging/optimized/image-58.webp"
+    }
+  ]
+}

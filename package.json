@@ -1,0 +1,13 @@
+{
+  "name": "mingwan-ai-mobile-team-2026",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build-sites.mjs",
+    "assets:audit": "node scripts/assets-audit.mjs",
+    "assets:optimize": "node scripts/assets-optimize.mjs"
+  },
+  "devDependencies": {
+    "sharp": "0.34.5"
+  }
+}

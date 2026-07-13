@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "assetBaseUrl": "https://assets.lighthouseisland.online",
+  "sourceDirectories": ["assets"],
+  "referenceFiles": ["index.html", "resources/**/*.html", "README.md"],
+  "budgets": {
+    "firstScreenTotalBytes": 1048576,
+    "localBundleTotalBytes": 8388608,
+    "photoBytes": 512000,
+    "transparentImageBytes": 512000,
+    "videoBytes": 1048576,
+    "audioBytes": 524288,
+    "maxPhotoLongEdge": 2000,
+    "maxCardPhotoLongEdge": 1200
+  },
+  "externalization": {
+    "recommendVideo": true,
+    "recommendAudio": true,
+    "recommendWhenOverBudget": true
+  },
+  "stagingDirectory": "asset-staging/optimized",
+  "reportPath": "reports/asset-audit.json"
+}
